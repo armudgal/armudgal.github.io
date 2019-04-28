@@ -2,26 +2,19 @@
 layout: page
 title: About
 tags: [about, arushit, mudgal, arushitmudgal]
-date: 2016-03-21
+date: 2019-04-28
 comments: false
 ---
 
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<center>Hi there, I am a cyber-security enthusiast working as a Software Developer Intern in <a href="https://www.akamai.com/" target="_blank"><b>Akamai Technologies</b></a>.<br>
+In my free time I like to contribute to the open source community.</center>
+<br>
+<center>
+    <a class="btn" href="mailto:{{ site.email }}/">
+        Get in touch
+    </a>
+    <a class="btn" href="resume/">
+        Download Resume
+    </a>
+</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
-
-## Getting Started
-
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-
-[Get in touch](mailto:{{ site.email }}){: .btn}
