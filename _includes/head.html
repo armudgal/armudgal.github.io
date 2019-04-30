@@ -44,12 +44,6 @@
     <link rel="apple-touch-icon" sizes="144x144" href="{{ site.baseurl }}/assets/img/favicons/apple-icon-144x144.png">
     <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/favicon.png" />
     <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" />
-    <!-- Background Image -->
-    {% if site.background %}
-    {% capture background %}{{ site.background }}{% endcapture %}
-    {% unless background contains 'http://' or background contains 'https://' %}{% capture background %}{{ site.baseurl }}/{{ background }}{% endcapture %}{% endunless %}
-    <style type="text/css">body {background-image:url({{ background }}); {% unless site.tiled_bg %} background-repeat: no-repeat; background-size: cover; {% endunless %}}</style>
-    {% endif %}
     <!-- Post Feature Image -->
     {% if page.feature %}
     {% capture feature %}{{ page.feature }}{% endcapture %}
