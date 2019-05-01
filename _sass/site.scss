@@ -180,17 +180,27 @@ header .entry-meta {
 }
 .entry-tags {
 	display: block;
-    margin-top: 1rem;
-	width: 70%;
+    margin-top: 2rem;
+	width: 100%;
     float: left;
-    text-align: left;
+    text-align: center;
 }
 .social-share {
 	display: block;
-    margin-top: 1rem;
-    width: 30%;
+    margin-top: 0rem;
+    width: 100%;
     float: right;
-    text-align: right;
+	text-align: center;
+	.tag {
+		font-size: medium;
+		border: none;
+		color: $text-colour  ;
+		background-color: $wrapper-card;
+		&:hover {
+			color: #888;
+			background-color: $wrapper-card;
+		}
+	}
 }
 .feature {
     @include transition(.5s);

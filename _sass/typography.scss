@@ -29,8 +29,11 @@
 .post-title {
 	text-align: center;
 	font-weight: bold;
-	margin-top: 6rem;
+	margin-top: 4rem;
 	margin-bottom: 1rem;
+	> h2 {
+		font-size: 2em;
+	}
 }
 
 // headings
@@ -92,12 +95,12 @@ figcaption {
 // links
 a {
   transition: color .4s;
-  color: $mid_orange;
+  color: $light_orange;
   &:link {
-  	color: $mid_orange;
+  	color: $light_orange;
   }
   &:visited {
-  	color: $light_orange;
+  	color: $mid_orange;
   }
   &:hover {
   	color: $dark_orange;
