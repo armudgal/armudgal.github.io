@@ -157,6 +157,10 @@
 		.btn {
 			margin-bottom: 0;
 		}
+		.btn-inverse:hover {
+			background-color: #222;
+			color: $white;
+		}
 	}
 	/* Hide the inner submenus */
 	li .dl-submenu {

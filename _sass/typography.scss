@@ -17,6 +17,7 @@
 	text-align: center;
 	font-weight: bold;
 	> p {
+		color: $light_orange;
 		text-align: center;
 		font-weight: bold;
 	}
@@ -28,12 +29,13 @@
 .post-title {
 	text-align: center;
 	font-weight: bold;
-	margin-bottom: 3rem;
+	margin-top: 6rem;
+	margin-bottom: 1rem;
 }
 
 // headings
 h3.title a {
-	color: $color_shark;
+	color: $text-colour;
 	text-decoration: none;
 }
 
@@ -90,15 +92,15 @@ figcaption {
 // links
 a {
   transition: color .4s;
-  color: $colour_orange;
+  color: $mid_orange;
   &:link {
-  	color: $colour_orange;
+  	color: $mid_orange;
   }
   &:visited {
-  	color: #fd7014;
+  	color: $light_orange;
   }
   &:hover {
-  	color: #b55400;
+  	color: $dark_orange;
   }
   &:active {
   	transition: color .3s;
