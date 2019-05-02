@@ -13,7 +13,7 @@ In my free time I like to contribute to the open source community.</center>
     <a class="btn" href="mailto:{{ site.email }}/">
         Get in touch
     </a>
-    <a class="btn" href="resume/">
+    <a class="btn" target="_blank" href="{{ site.baseurl }}/{{site.resumeurl}}">
         Download Resume
     </a>
 </center>

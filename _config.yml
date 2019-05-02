@@ -4,10 +4,12 @@ bio:                'SDE Intern at Akamai Technologies'
 description:        "An avid open-source contributor"
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.jpeg'
+logo:               'assets/img/face.png'
+reallogo:           'assets/img/professional-picture.jpg'
 # background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           true   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
+resumeurl:          'assets/Arushit-Mudgal.pdf'
 url:                https://arushitmudgal.com
 baseurl:            ''
 
