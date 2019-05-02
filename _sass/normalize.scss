@@ -87,6 +87,9 @@ dfn {
 h1 {
   font-size: 3em;
   margin: 0.67em 0;
+  @media #{$small} {
+    font-size: 2em;
+	}
 }
 
 mark {
