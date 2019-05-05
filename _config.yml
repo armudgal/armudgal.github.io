@@ -1,7 +1,7 @@
 # Site
 title:              Arushit Mudgal
 bio:                'SDE Intern at Akamai Technologies'
-description:        "An avid open-source contributor"
+description:        "Information Security enthusiast currently interning in Akamai. OSCP aspirant"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/face.png'
@@ -65,8 +65,8 @@ linkedin:           arushit-mudgal
 #xmpp:              username@server.com
 #hackernews:        username
 
-# Gems
-gems:
+# Gems plugins
+plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
