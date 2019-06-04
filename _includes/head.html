@@ -4,7 +4,7 @@
     <title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
     <meta name="theme-color" content="#222831">
     <meta name="description" content="Arushit Mudgal. {% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    {% if page.tags %}<meta name="keywords" content="arushit, mudgal, security, oscp, infosec, hacker, {{ page.tags | join: ', ' }}">{% endif %}
+    {% if page.tags %}<meta name="keywords" content="arushit, mudgal,  {{ page.meta-tags | join: ', ' }}, security, oscp, infosec, hacker, {{ page.tags | join: ', ' }}">{% endif %}
     <!-- Twitter Cards -->
     {% if page.feature %}{% capture feature %}{{ page.feature }}{% endcapture %}{% unless feature contains 'http://' or feature contains 'https://' %}{% capture feature %}{{ site.baseurl }}/{{ feature }}{% endcapture %}{% endunless %}
     <meta name="twitter:card" content="summary_large_image">
