@@ -133,6 +133,11 @@ body {
 	    box-shadow: none;
 	}
 }
+
+.footer {
+	margin: 2em auto;
+	text-align: center;
+}
 // entry meta
 .entry-meta {
 	@include font-rem(12);
